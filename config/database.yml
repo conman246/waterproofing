@@ -15,11 +15,12 @@
 # gem 'pg'
 #
 development:
-adapter: postgresql
-encoding: unicode
-database: waterproofing_development
-pool: 5
-host: localhost
+  adapter: postgresql
+  encoding: unicode
+  database: Waterproofing_development
+  pool: 5
+  host: localhost
+
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
   # domain sockets, so uncomment these lines.
@@ -42,16 +43,14 @@ host: localhost
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
 test:
-adapter: postgresql
-encoding: unicode
-database: waterproofing_test
-pool: 5
-host: localhost
+  adapter: postgresql
+  encoding: unicode
+  database: Waterproofing_test
+  pool: 5
+  host: localhost
 
 production:
-adapter: postgresql
-encoding: unicode
-database: waterproofing_production
-pool: 5
-host: localhost
-
+  adapter: postgresql
+  encoding: unicode
+  database: Waterproofing_production
+  pool: 5
