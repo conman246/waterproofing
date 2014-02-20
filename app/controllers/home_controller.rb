@@ -1,7 +1,8 @@
 class HomeController < ApplicationController
 
-def index
-  #add special homepage layout
-end
+  def index
+
+  end
+
 
 end

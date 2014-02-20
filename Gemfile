@@ -10,10 +10,10 @@ gem 'sass-rails', '~> 4.0.0'
 
 # For implementing Wordpress blog
 # Refer to http://rywalker.com/setting-up-a-wordpress-blog-on-heroku-as-a-subdirectory-of-a-rails-app-also-hosted-on-heroku
-gem "rack-reverse-proxy", :require => "rack/reverse_proxy"
+# gem "rack-reverse-proxy", :require => "rack/reverse_proxy"
 
 #PostGres Database Gem
- gem 'pg', group: :production
+ gem 'pg'
 
  #Heroku Gems
   # gem 'rails_12factor', group: :production
