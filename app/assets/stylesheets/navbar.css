@@ -19,5 +19,6 @@ a.navbar-brand{
 }
 
 .slider-wrapper{
-  height:200px;
+  height:150px;
+  margin-top:2px;
 }
