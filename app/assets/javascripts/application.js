@@ -15,3 +15,13 @@
 //= require turbolinks
 //= require bootstrap
 //= require_tree .
+//= require cufon
+//= require waypoints
+//= require masonry
+//= require jquery.mixitup
+//= require_tree ../../../vendor/assets/javascripts/.
+
+
+
+
+
