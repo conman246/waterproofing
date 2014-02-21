@@ -13,4 +13,7 @@
 
   def portfolio
   end 
+
+  def contact
+  end
 end
