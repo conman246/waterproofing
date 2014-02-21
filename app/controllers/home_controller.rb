@@ -5,7 +5,7 @@
   end
 
   def about_us
-    render :about_us
+    render layout: "about_us_layout", view: "about_us"
   end
 
 
