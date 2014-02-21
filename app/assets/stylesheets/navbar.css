@@ -1,7 +1,29 @@
 #nav-logo{
-height: 180%;
+  height: 130px;
 }
 
 a.navbar-brand{
   margin-top: 0px;
+  position: absolute;
+  top: -20px;
+  right: 840px;
+}
+}
+
+.navbar-white{
+/*  height: 101px;*/
+}
+
+.navbar-brand{
+  border-top:0px;
+}
+
+.slider-wrapper{
+height:0px;
+  margin-top:2px;
+  padding-top:10px;
+}
+
+.navbar-collapse{
+  margin-top:5px;
 }
