@@ -15,6 +15,8 @@ gem 'sass-rails', '~> 4.0.0'
 #PostGres Database Gem
  gem 'pg'
 
+ gem "font-awesome-rails"
+
  #Heroku Gems
   # gem 'rails_12factor', group: :production
   # gem 'rails_serve_static_assets', group: :production
