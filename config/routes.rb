@@ -5,6 +5,7 @@ Waterproofing::Application.routes.draw do
   root to: "home#index"
 
   get '/about-us' => 'home#about_us'
+  get '/services' => 'home#services'
 
   resources :home
 
