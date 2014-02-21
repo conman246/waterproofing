@@ -1,7 +1,23 @@
 #nav-logo{
-height: 180%;
+  height: 120px;
 }
 
 a.navbar-brand{
   margin-top: 0px;
+  position: absolute;
+  top: -20px;
+  right: 840px;
+}
+}
+
+.navbar-white{
+/*  height: 101px;*/
+}
+
+.navbar-brand{
+  border-top:0px;
+}
+
+.slider-wrapper{
+  height:200px;
 }
