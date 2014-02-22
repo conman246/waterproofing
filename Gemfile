@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-# ruby "1.9.3"
+ruby "1.9.3"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
@@ -12,14 +12,14 @@ gem 'sass-rails', '~> 4.0.0'
 # Refer to http://rywalker.com/setting-up-a-wordpress-blog-on-heroku-as-a-subdirectory-of-a-rails-app-also-hosted-on-heroku
 # gem "rack-reverse-proxy", :require => "rack/reverse_proxy"
 
-#PostGres Database Gem
- gem 'pg'
-
  gem "font-awesome-rails"
 
+#PostGres Database Gem
+ gem 'pg', group: :production
+
  #Heroku Gems
-  # gem 'rails_12factor', group: :production
-  # gem 'rails_serve_static_assets', group: :production
+  gem 'rails_12factor', group: :production
+  gem 'rails_serve_static_assets', group: :production
 
 
 # Use Uglifier as compressor for JavaScript assets
@@ -52,7 +52,7 @@ end
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
 # Use unicorn as the app server
-# gem 'unicorn'
+gem 'unicorn'
 
 # Use Capistrano for deployment
 # gem 'capistrano', group: :development
