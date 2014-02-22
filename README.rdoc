@@ -1,1 +1,11 @@
 This is a website. It will be awesome. 
+
+Error We Need Help Fixing
+========================
+
+Command **RAILS_ENV=production bundle exec rake assets:precompile** is failing with the following error:
+
+rake aborted!
+Invalid CSS after **"...r{display:none ": expected "{", was "!importat;width..."
+  (in /Users/rskelley/Desktop/Alta_Waterproofing/Media Files/Waterproofing/app/assets/stylesheets/application.css)
+(sass):7159**
