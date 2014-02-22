@@ -3,9 +3,24 @@ This is a website. It will be awesome.
 Error We Need Help Fixing
 ========================
 
-Command **RAILS_ENV=production bundle exec rake assets:precompile** is failing with the following error:
+We run command 
+
+$ RAILS_ENV=production bundle exec rake assets:precompile 
+
+IT fails is failing with the following error:
 
 rake aborted!
-Invalid CSS after **"...r{display:none ": expected "{", was "!importat;width..."
+Invalid CSS after "...r{display:none ": expected "{", was "!importat;width..."
   (in /Users/rskelley/Desktop/Alta_Waterproofing/Media Files/Waterproofing/app/assets/stylesheets/application.css)
-(sass):7159**
+(sass):7159
+
+========================
+
+Result:
+The application runs on Heroku without proper bootstrap 3 styling, or any whatsoever.
+
+Possible culprits:
+
+Sass-Rails
+Font-Awesome
+
