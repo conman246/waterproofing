@@ -6,13 +6,13 @@ ruby "1.9.3"
 gem 'rails', '4.0.2'
 
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.0'
+gem 'sass-rails'
 
 # For implementing Wordpress blog
 # Refer to http://rywalker.com/setting-up-a-wordpress-blog-on-heroku-as-a-subdirectory-of-a-rails-app-also-hosted-on-heroku
 # gem "rack-reverse-proxy", :require => "rack/reverse_proxy"
 
- gem "font-awesome-rails"
+ gem "font-awesome-rails", group: :production
 
 #PostGres Database Gem
  gem 'pg', group: :production
@@ -21,12 +21,18 @@ gem 'sass-rails', '~> 4.0.0'
   gem 'rails_12factor', group: :production
   gem 'rails_serve_static_assets', group: :production
 
+  group :assets do
+    gem 'less-rails'
+    gem 'coffee-rails'
+    gem 'uglifier'
+end
+
 
 # Use Uglifier as compressor for JavaScript assets
-gem 'uglifier', '>= 1.3.0'
+# gem 'uglifier', '>= 1.3.0'
 
 # Use CoffeeScript for .js.coffee assets and views
-gem 'coffee-rails', '~> 4.0.0'
+# gem 'coffee-rails', '~> 4.0.0'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
@@ -38,7 +44,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 1.2'
+gem 'jbuilder'
 
 # Adds gravatar helper for user gravatar images
 gem 'gravatar_image_tag'
