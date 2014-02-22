@@ -21,9 +21,9 @@ a.navbar-brand{
 }
 
 .slider-wrapper{
-  /*height:200px;*/
-/*  margin-top:2px;
-padding-top:10px;*/
+  /*height:;*/
+/*  margin-top:;
+padding-top:;*/
 }
 
 .navbar-collapse{
@@ -37,16 +37,15 @@ span.aux-text.hidden-xs{
 }
 
 .navbar div.container{
-  overflow: hidd;
+  overflow: hidden;
   width: 100%;
 }
 
-/*this is the top-header*/
 div.row{
-  padding-bottom: 5px;
+ /* padding-bottom: 5px;*/
 }
 
-.testy p{
+div.col-md-3 p{
   min-height: 80px;
   max-height:100px;
 }
@@ -71,8 +70,15 @@ div.front-carousel div.row{
   right: 10px !important;
 }
 
+div.col-sm-12.top-head{
+  width: 105%;
+}
 .navbar-header{
-  height:85px;
-  padding-top: 5px;
-  padding-bottom:5px;
+  height:95px;
+  padding-top: 7.5px;
+  padding-bottom:7.5px;
+}
+
+div.navbar-collapse.collapse{
+  margin-top: 10px;
 }
