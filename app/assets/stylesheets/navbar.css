@@ -4,14 +4,16 @@
 
 a.navbar-brand{
   margin-top: 0px;
-  position: absolute;
-  top: -20px;
-  right: 840px;
-}
+  /*  position: absolute;*/
+  position: relative;
+  float:left;
+  top: -25px;
+  width: 10%;
+  /*  right: 840px;*/
 }
 
 .navbar-white{
-/*  height: 101px;*/
+  /*  height: 101px;*/
 }
 
 .navbar-brand{
@@ -19,11 +21,46 @@ a.navbar-brand{
 }
 
 .slider-wrapper{
-height:0px;
+  /*height:200px;*/
   margin-top:2px;
   padding-top:10px;
 }
 
 .navbar-collapse{
   margin-top:5px;
+}
+
+.navbar div.container{
+  overflow: hidd;
+  width: 100%;
+}
+
+/*this is the top-header*/
+div.row{
+  padding-bottom: 5px;
+}
+
+.testy p{
+  min-height: 80px;
+  max-height:100px;
+}
+
+.quotee{
+  padding-left: 5px;
+  float: right;
+  margin-top: 10px;
+  font-style:italic;
+}
+
+div.front-carousel div.row{
+  margin-left:20px;
+  margin-right:20px;
+}
+
+.carousel-2 .carousel-control.left i {
+left: 10px !important;
+}
+
+.carousel-2 .carousel-control.right i {
+right: 10px !important;
 }
