@@ -19,4 +19,8 @@
   def contact
     render layout: "contact_layout"
   end
+
+  def pricing
+    render layout: "application"
+  end
 end
