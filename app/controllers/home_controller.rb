@@ -17,5 +17,6 @@
   end
 
   def contact
+    render layout: "contact_layout"
   end
 end

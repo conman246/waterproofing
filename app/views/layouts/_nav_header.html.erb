@@ -1,4 +1,4 @@
-<section id="asideMenu" class="aside-menu">
+<!-- <section id="asideMenu" class="aside-menu">
   <form class="form-inline form-search">
     <div class="input-group">
       <input type="search" class="form-control" placeholder="Search..." />
@@ -47,7 +47,10 @@
     <h5>Phone</h5>
     <p>+10 724 1234 567</p>
   </div>
-</section>
+</section> -->
+
+<!-- end side menu -->
+
 <div class="wrapper">
   <div class="top-header">
     <div class="container">
@@ -56,13 +59,13 @@
           <span class="aux-text hidden-xs">
             <b>Contact Alta: </b> Jensen@ALTAwp.com | 1.410.379.0095
           </span>
-         <!--  <nav class="top-header-menu"> -->
+          <!--  <nav class="top-header-menu"> -->
             <!-- <ul class="menu">
-              <li> -->
-         <!--        <a href="sign-in.html">Login</a> -->
-              <!-- </li> -->
-              <!-- <li class="shopping-cart dropdown"> -->
-                <!-- <a href="#" title="View your shopping cart"><i class="fa fa-shopping-cart"></i><span class="amount">&dollar;0</span></a> -->
+            <li> -->
+             <!--        <a href="sign-in.html">Login</a> -->
+             <!-- </li> -->
+             <!-- <li class="shopping-cart dropdown"> -->
+             <!-- <a href="#" title="View your shopping cart"><i class="fa fa-shopping-cart"></i><span class="amount">&dollar;0</span></a> -->
 
                 <!-- <ul class="sub-menu">
                   <li>
@@ -108,33 +111,33 @@
                     </div>
                   </li>
                 </ul> -->
-              <!-- </li> -->
-            <!-- </ul> --> <!-- menu end -->
-        <!--   </nav> --> <!-- top header menu -->
+                <!-- </li> -->
+                <!-- </ul> --> <!-- menu end -->
+                <!--   </nav> --> <!-- top header menu -->
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-  </div>
 
-  <header>
-    <div class="navbar navbar-white" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
+        <header>
+          <div class="navbar navbar-white" role="navigation">
+            <div class="container">
+              <div class="navbar-header">
        <!--    <button type="button" class="navbar-toggle navbar-toggle-aside-menu">
             <i class="fa fa-outdent icon-custom"></i>
           </button> -->
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
+          <!--       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> -->
+        <!--     <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
-          </button>
+          </button> -->
           <a class="navbar-brand" href="/">
             <%= image_tag("ALTA-logo-noback.png", alt: "ALTA Waterproofing", id:"nav-logo")%>
           </a>
         </div>
 
-<div class="navbar-collapse collapse">
+        <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
             <li class="active">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">Home</a>
@@ -161,13 +164,17 @@
               </ul>
             </li>
 
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">Contact</a>
-            <ul class="dropdown-menu">
-             <li><a href="shop-home.html">Request Service</a></li>
-             <li><a href="shop-products.html">Support</a></li>
-           </ul>
-         </li>
-  </div>
-</div>
-</header>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">Contact</a>
+              <ul class="dropdown-menu">
+               <li><a href="shop-home.html">Request Service</a></li>
+               <li><a href="shop-products.html">Support</a></li>
+             </ul>
+           </li>
+         </div>
+       </div>
+     </header>
+
+     <script>
+     $('.dropdown-toggle').unbind()
+     </script>
