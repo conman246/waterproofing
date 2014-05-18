@@ -21,7 +21,6 @@ gem 'sass-rails', '~> 4.0.0'
   # gem 'rails_12factor', group: :production
   # gem 'rails_serve_static_assets', group: :production
 
-
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 
