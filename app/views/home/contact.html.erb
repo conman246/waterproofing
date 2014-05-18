@@ -8,28 +8,29 @@
   <!-- Required -->
   <link href="css/global-style.css" rel="stylesheet" type="text/css" media="screen">
   <link rel="icon" href="images/favicon.png" type="image/png">
+
   <script type="text/javascript" src="js/less.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=true"></script>
   <script type="text/javascript">
   function initialize() {
-    var myLatlng = new google.maps.LatLng(44.4325, 26.1039);
+    var myLatlng = new google.maps.LatLng(39.1823349, -76.8505859);
     var mapOptions = {
       zoom: 12,
-      scrollwheel: false,
+      scrollwheel: true,
       center: myLatlng,
       mapTypeId: google.maps.MapTypeId.ROADMAP
     }
     var map = new google.maps.Map(document.getElementById('mapCanvas'), mapOptions);
-    
+
     var marker = new google.maps.Marker({
       position: myLatlng,
       map: map,
       animation: google.maps.Animation.DROP,
-      title: 'Hello World!'
+      title: 'Google Maps location'
     });
 
-    var contentString = '<div class="info-window-content"><h2>Web Pixels</h2>'+
-    '<h3>Designing forward</h3>'+
+    var contentString = '<div class="info-window-content"><h2>Alta WP</h2>'+
+    '<h3>Great Waterproofing</h3>'+
     '<p>Some more details for directions or company informations...</p></div>';
 
     var infowindow = new google.maps.InfoWindow({

@@ -8,12 +8,19 @@
     render layout: "about_us_layout", view: "about_us"
   end
 
-  def services 
+  def services
   end
 
   def portfolio
-  end 
+
+    render layout: "application"
+  end
 
   def contact
+    render layout: "contact_layout"
+  end
+
+  def pricing
+    render layout: "application"
   end
 end

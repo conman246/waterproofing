@@ -8,6 +8,7 @@ Waterproofing::Application.routes.draw do
   get '/services' => 'home#services'
   get '/portfolio' => 'home#portfolio'
   get '/contact' => 'home#contact'
+  get '/pricing' => 'home#pricing'
 
   resources :home
 
